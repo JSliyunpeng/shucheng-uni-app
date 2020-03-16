@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/my/index",
+    "pages/news/index",
+    "pages/bookshelf/index",
+    "pages/find/index",
+    "pages/index/index",
+    "pages/my/index"
+  ],
+  "subPackages": [],
+  "window": {},
+  "tabBar": {
+    "textColor": "#ababab",
+    "selectedColor": "#f89714",
+    "backgroundColor": "#FFFFFF",
+    "items": [
+      {
+        "pagePath": "pages/index/index",
+        "name": "首页",
+        "icon": "static/images/icon_tabbar_home.jpg",
+        "activeIcon": "static/images/icon_tabar_home_select.png"
+      },
+      {
+        "pagePath": "pages/find/index",
+        "name": "发现",
+        "icon": "static/images/icon_tabar_find.jpg",
+        "activeIcon": "static/images/icon_tabbar_find_select.jpg"
+      },
+      {
+        "pagePath": "pages/bookshelf/bookshelf",
+        "name": "书架",
+        "icon": "static/images/icon_tabar_bookshelf.jpg",
+        "activeIcon": "static/images/icon_tabbar_bookshelf_select.jpg"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "name": "消息",
+        "icon": "static/images/icon_tabar_news.jpg",
+        "activeIcon": "./static/images/icon_rabbar_new_select.jpg"
+      },
+      {
+        "pagePath": "pages/my/index",
+        "name": "我的",
+        "icon": "static/images/icon_tabbar_my.jpg",
+        "activeIcon": "static/images/icon_tabbar_my_select.jpg"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

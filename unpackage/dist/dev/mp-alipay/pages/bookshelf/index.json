@@ -1,0 +1,7 @@
+{
+  "defaultTitle": "书架",
+  "titleBarColor": "#FFFFFF",
+  "usingComponents": {
+    "uni-nav-bar": "/components/uni-nav-bar/uni-nav-bar"
+  }
+}

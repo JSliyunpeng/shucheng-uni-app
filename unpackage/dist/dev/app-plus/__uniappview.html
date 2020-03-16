@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+    <head>
+        <meta charset="UTF-8" />
+        <script>
+            var coverSupport = 'CSS' in window && typeof CSS.supports === 'function' && (CSS.supports('top: env(a)') ||
+                CSS.supports('top: constant(a)'))
+            document.write(
+                '<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' +
+                (coverSupport ? ', viewport-fit=cover' : '') + '" />')
+        </script>
+        <title>View</title>
+        <style>
+            * {
+                -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+                -webkit-tap-highlight-color: transparent;
+            }
+
+            input[type="search"]::-webkit-search-cancel-button {
+                display: none;
+            }
+        </style>
+        <script>
+            var __wxConfig = {"debug":false,"appname":"shucheng-uni","entryPagePath":"pages/index/index.html","page":{"pages/index/index.html":{"window":{"navigationBarTitleText":"书城","navigationBarBackgroundColor":"#FFFFFF","navigationBarTextStyle":"black","usingComponents":{"uni-icons":"/components/uni-icons/uni-icons"}}},"pages/login/index.html":{"window":{"usingComponents":{"uni-nav-bar":"/components/uni-nav-bar/uni-nav-bar"}}},"pages/find/index.html":{"window":{"usingComponents":{}}},"pages/bookshelf/index.html":{"window":{"navigationBarBackgroundColor":"#FFFFFF","navigationBarTextStyle":"black","navigationBarTitleText":"书架","usingComponents":{"uni-nav-bar":"/components/uni-nav-bar/uni-nav-bar"}}},"pages/news/index.html":{"window":{"usingComponents":{"cl-tabs":"/components/cl-tabs/cl-tabs","uni-card":"/components/uni-card/uni-card"}}},"pages/my/index.html":{"window":{"usingComponents":{"uni-nav-bar":"/components/uni-nav-bar/uni-nav-bar","uni-list":"/components/uni-list/uni-list","uni-list-item":"/components/uni-list-item/uni-list-item"}}}},"global":{"window":{"navigationStyle":"custom"}},"tabBar":{"color":"#ababab","selectedColor":"#f89714","backgroundColor":"#FFFFFF","borderStyle":"black","list":[{"pagePath":"pages/index/index.html","text":"首页","iconPath":"static/images/icon_tabbar_home.jpg","selectedIconPath":"static/images/icon_tabar_home_select.png"},{"pagePath":"pages/find/index.html","text":"发现","iconPath":"static/images/icon_tabar_find.jpg","selectedIconPath":"static/images/icon_tabbar_find_select.jpg"},{"pagePath":"pages/bookshelf/index.html","text":"书架","iconPath":"static/images/icon_tabar_bookshelf.jpg","selectedIconPath":"static/images/icon_tabbar_bookshelf_select.jpg"},{"pagePath":"pages/news/index.html","text":"消息","iconPath":"static/images/icon_tabar_news.jpg","selectedIconPath":"./static/images/icon_rabbar_new_select.jpg"},{"pagePath":"pages/my/index.html","text":"我的","iconPath":"static/images/icon_tabbar_my.jpg","selectedIconPath":"static/images/icon_tabbar_my_select.jpg"}],"position":"bottom","navigationStyle":"custom"},"networkTimeout":{"request":60000,"connectSocket":60000,"uploadFile":60000,"downloadFile":60000},"platform":"devtools","pages":["pages/index/index","pages/login/index","pages/find/index","pages/bookshelf/index","pages/news/index","pages/my/index"],"nvueCompiler":"uni-app","renderer":"auto","splashscreen":{"alwaysShowBeforeRender":true,"autoclose":false},"compilerVersion":"2.6.1","usingComponents":{}}
+        </script>
+        <script>
+            var __id__ = '';
+            window.__dispatchGenerateFunc__ = function(page) {
+                __id__ = page;
+                document.title = page;
+                // window.history.pushState('', '', page);
+                var wxss = page.replace('.html', '.wxss')
+                if (
+                    typeof __wxAppCode__ !== 'undefined' &&
+                    __wxAppCode__.hasOwnProperty(wxss)
+                ) {
+                    var setCssToHead = __wxAppCode__[wxss]
+                    typeof setCssToHead === 'function' && setCssToHead()
+                    document.dispatchEvent(new CustomEvent("generateFuncReady", {
+                        detail: {
+                            generateFunc: $gwx(page.replace('.html', '.wxml'))
+                        }
+                    }));
+                } else {
+                    plus.webview.currentWebview().setJsFile('_www/' + page.replace('.html', '.js'));
+                }
+            };
+        </script>
+        <script src="__uniappes6.js"></script>
+        <script src="uniapp://ready"></script>
+    </head>
+
+    <body>
+        <div></div>
+    </body>
+
+</html>

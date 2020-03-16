@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "cl-tabs": "/components/cl-tabs/cl-tabs",
+    "uni-card": "/components/uni-card/uni-card"
+  }
+}

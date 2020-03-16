@@ -1,0 +1,89 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "书城",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/login/index",
+			"style": {}
+		}, 
+		
+		{
+			"path": "pages/find/index",
+			"style": {}
+		},
+		{
+			"path": "pages/bookshelf/index",
+			"style": {
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "书架"
+			}
+		},
+		{
+			"path": "pages/news/index",
+			"style": {}
+		},
+		{
+			"path": "pages/my/index",
+			"style": {}
+		}
+	],
+
+	"globalStyle": {
+		"navigationStyle": "custom"
+	},
+	// #ifdef MP-WEIXIN
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "书城",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	// #endif
+
+	"tabBar": {
+		"color": "#ababab",
+		"selectedColor": "#f89714",
+		"backgroundColor": "#FFFFFF",
+		"borderStyle": "black",
+		"navigationStyle": "custom",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/images/icon_tabbar_home.jpg",
+				"selectedIconPath": "static/images/icon_tabar_home_select.png"
+			},
+			{
+				"pagePath": "pages/find/index",
+				"text": "发现",
+				"iconPath": "static/images/icon_tabar_find.jpg",
+				"selectedIconPath": "static/images/icon_tabbar_find_select.jpg"
+			},
+			{
+				"pagePath": "pages/bookshelf/index",
+				"text": "书架",
+				"iconPath": "static/images/icon_tabar_bookshelf.jpg",
+				"selectedIconPath": "static/images/icon_tabbar_bookshelf_select.jpg"
+			},
+			{
+				"pagePath": "pages/news/index",
+				"text": "消息",
+				"iconPath": "static/images/icon_tabar_news.jpg",
+				"selectedIconPath": "./static/images/icon_rabbar_new_select.jpg"
+			},
+			{
+				"pagePath": "pages/my/index",
+				"text": "我的",
+				"iconPath": "static/images/icon_tabbar_my.jpg",
+				"selectedIconPath": "static/images/icon_tabbar_my_select.jpg"
+			}
+		]
+	}
+}

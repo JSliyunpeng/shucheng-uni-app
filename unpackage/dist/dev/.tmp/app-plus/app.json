@@ -1,0 +1,61 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login/index",
+    "pages/find/index",
+    "pages/bookshelf/index",
+    "pages/news/index",
+    "pages/my/index"
+  ],
+  "window": {
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "color": "#ababab",
+    "selectedColor": "#f89714",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "black",
+    "navigationStyle": "custom",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/images/icon_tabbar_home.jpg",
+        "selectedIconPath": "static/images/icon_tabar_home_select.png"
+      },
+      {
+        "pagePath": "pages/find/index",
+        "text": "发现",
+        "iconPath": "static/images/icon_tabar_find.jpg",
+        "selectedIconPath": "static/images/icon_tabbar_find_select.jpg"
+      },
+      {
+        "pagePath": "pages/bookshelf/index",
+        "text": "书架",
+        "iconPath": "static/images/icon_tabar_bookshelf.jpg",
+        "selectedIconPath": "static/images/icon_tabbar_bookshelf_select.jpg"
+      },
+      {
+        "pagePath": "pages/news/index",
+        "text": "消息",
+        "iconPath": "static/images/icon_tabar_news.jpg",
+        "selectedIconPath": "./static/images/icon_rabbar_new_select.jpg"
+      },
+      {
+        "pagePath": "pages/my/index",
+        "text": "我的",
+        "iconPath": "static/images/icon_tabbar_my.jpg",
+        "selectedIconPath": "static/images/icon_tabbar_my_select.jpg"
+      }
+    ]
+  },
+  "nvueCompiler": "uni-app",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "shucheng-uni",
+  "compilerVersion": "2.6.1",
+  "usingComponents": {}
+}
