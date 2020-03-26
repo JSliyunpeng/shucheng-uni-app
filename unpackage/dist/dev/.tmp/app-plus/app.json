@@ -1,11 +1,13 @@
 {
   "pages": [
     "pages/index/index",
+    "pages/bookdetial/index",
     "pages/login/index",
     "pages/find/index",
     "pages/bookshelf/index",
     "pages/news/index",
-    "pages/my/index"
+    "pages/my/index",
+    "pages/read/index"
   ],
   "window": {
     "navigationStyle": "custom"
@@ -56,6 +58,6 @@
     "autoclose": false
   },
   "appname": "shucheng-uni",
-  "compilerVersion": "2.6.1",
+  "compilerVersion": "2.6.5",
   "usingComponents": {}
 }

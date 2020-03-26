@@ -68,7 +68,7 @@
 				<view class="Selected_top clearfix"><text class="Selected_text_left">每日精选</text></view>
 				<view class="day_Selected_bottom h5_custom_padding">
 					<view class="day_Selected_lists_box" :style="{ width: scollBoxWidth }" id="scrollBox" ref="scrollBox">
-						<view class="day_Selected_lists clearfix" data-index="1" id="scrollList" @click="dowmloadBook('红楼梦')">
+						<view class="day_Selected_lists clearfix" data-index="1" id="scrollList" @click="tobookDetial('红楼梦')">
 							<image class="day_Selected_img" src="../../static/images/day_Selected_img_01.jpg" mode=""></image>
 							<text class="book_name">夏日湖光游1</text>
 							<text class="author">{{ message }}</text>
@@ -136,8 +136,12 @@ export default {
 	},
 	methods: {
 		// 书本保存到本地
+		tobookDetial(bookName){
+			uni.navigateTo({
+			    url: '/pages/bookdetial/index?bookName='+bookName
+			});
+		},
 		saveBookLocal(savedFilePath, bookName) {
-			console.log(savedFilePath)
 			/* 读取临时文件 */
 			plus.io.resolveLocalFileSystemURL(
 				savedFilePath,
@@ -171,7 +175,7 @@ export default {
 						bookName = bookName + '.txt';
 						/* 判断书本是否存在 */
 						let hasBook = entries.find(item => {
-							console.log(item.name, bookName);
+							console.log(item.name, bookName)
 							return item.name === bookName;
 						});
 						/* 不存在则下载 */
@@ -197,7 +201,6 @@ export default {
 			});
 		}
 	},
-	onLoad() {},
 	onReady() {
 		const query = uni.createSelectorQuery().in(this);
 		let aaa = query.selectAll('#scrollBox');

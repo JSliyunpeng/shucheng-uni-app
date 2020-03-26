@@ -24,20 +24,20 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
-.content .position_f.data-v-a551f0b8 {
+.content .position_f.data-v-a6571160 {
   position: fixed;
   z-index: 999;
   background-color: #ffffff;
 }
-.swiper.data-v-a551f0b8 {
+.swiper.data-v-a6571160 {
   height: 100%;
   background-color: #ffffff;
 }
-.swiper .page.data-v-a551f0b8 {
+.swiper .page.data-v-a6571160 {
     padding-top: 78rpx;
     background-color: #e6e6e6;
 }
-.swiper .card_text_hidden.data-v-a551f0b8 {
+.swiper .card_text_hidden.data-v-a6571160 {
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
@@ -45,77 +45,77 @@
     -webkit-box-orient: vertical;
     margin-left: 70rpx;
 }
-.swiper .card_text_show.data-v-a551f0b8 {
+.swiper .card_text_show.data-v-a6571160 {
     margin-left: 70rpx;
 }
-.swiper .uni-card.data-v-a551f0b8 {
+.swiper .uni-card.data-v-a6571160 {
     border: none;
     margin-top: 10rpx;
 }
-.swiper .uni-card .uni-card__content.data-v-a551f0b8 {
+.swiper .uni-card .uni-card__content.data-v-a6571160 {
       border: none;
 }
-.swiper .uni-card .uni-card__footer.data-v-a551f0b8 {
+.swiper .uni-card .uni-card__footer.data-v-a6571160 {
       border: none;
       border-top: 0 !important;
 }
-.swiper .show_text_all.data-v-a551f0b8 {
+.swiper .show_text_all.data-v-a6571160 {
     text-align: right;
     background-image: -webkit-linear-gradient(bottom, red, #fd8403, yellow);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.swiper .card_book.data-v-a551f0b8 {
+.swiper .card_book.data-v-a6571160 {
     margin-left: 70rpx;
     margin-top: 30rpx;
     background-color: #f9f8f8;
     border-radius: 20rpx;
     padding: 30rpx 25rpx;
 }
-.swiper .card_book .card_book_img.data-v-a551f0b8 {
+.swiper .card_book .card_book_img.data-v-a6571160 {
       display: block;
       float: left;
       width: 70rpx;
       height: 100rpx;
       border-radius: 10rpx;
 }
-.swiper .card_book .card_book_left.data-v-a551f0b8 {
+.swiper .card_book .card_book_left.data-v-a6571160 {
       float: left;
       padding-left: 24rpx;
 }
-.swiper .card_book .card_book_left .card_book_name.data-v-a551f0b8 {
+.swiper .card_book .card_book_left .card_book_name.data-v-a6571160 {
         font-size: 34rpx;
         color: #333333;
 }
-.swiper .card_btn.data-v-a551f0b8 {
+.swiper .card_btn.data-v-a6571160 {
     text-align: center;
 }
-.swiper .card_btn text.data-v-a551f0b8 {
+.swiper .card_btn text.data-v-a6571160 {
       margin-right: 6rpx;
       font-size: 36rpx;
 }
-.swiper .card_btn .text_true.data-v-a551f0b8 {
+.swiper .card_btn .text_true.data-v-a6571160 {
       background-image: -webkit-linear-gradient(bottom, red, #fd8403, yellow);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
 }
-.page.data-v-a551f0b8 {
+.page.data-v-a6571160 {
   height: 100vh;
   width: 100vw;
 }
-.page.show.data-v-a551f0b8 {
+.page.show.data-v-a6571160 {
   overflow: hidden;
 }
-.switch-sex.data-v-a551f0b8::after {
+.switch-sex.data-v-a6571160::after {
   content: '\E716';
 }
-.switch-sex.data-v-a551f0b8::before {
+.switch-sex.data-v-a6571160::before {
   content: '\E7A9';
 }
-.switch-music.data-v-a551f0b8::after {
+.switch-music.data-v-a6571160::after {
   content: '\E66A';
 }
-.switch-music.data-v-a551f0b8::before {
+.switch-music.data-v-a6571160::before {
   content: '\E6DB';
 }
 

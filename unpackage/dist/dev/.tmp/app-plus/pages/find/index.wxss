@@ -24,82 +24,82 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
-.scroll.data-v-59cf8b0a {
+.scroll.data-v-594cfab6 {
   width: auto;
   padding: 0 10rpx 100rpx;
 }
-.scroll .hot_book_title.data-v-59cf8b0a {
+.scroll .hot_book_title.data-v-594cfab6 {
     display: block;
     height: 114rpx;
     line-height: 114rpx;
     font-size: 44rpx;
     color: #333333;
 }
-.scroll .swiper.data-v-59cf8b0a {
+.scroll .swiper.data-v-594cfab6 {
     border-radius: 20rpx;
     overflow: hidden;
     height: 330rpx;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     margin: 10rpx;
 }
-.scroll .swiper .swiper_item.data-v-59cf8b0a {
+.scroll .swiper .swiper_item.data-v-594cfab6 {
       display: -webkit-box;
       display: -webkit-flex;
       display: flex;
       width: auto;
       padding: 30rpx 0;
 }
-.scroll .swiper .swiper_item .swiper_item_box.data-v-59cf8b0a {
+.scroll .swiper .swiper_item .swiper_item_box.data-v-594cfab6 {
         -webkit-box-flex: 1;
         -webkit-flex: 1;
                 flex: 1;
 }
-.scroll .swiper .swiper_item .swiper_item_img.data-v-59cf8b0a {
+.scroll .swiper .swiper_item .swiper_item_img.data-v-594cfab6 {
         display: block;
         width: 180rpx;
         height: 250rpx;
         margin: 0 auto;
 }
-.scroll .Book_circle.data-v-59cf8b0a {
+.scroll .Book_circle.data-v-594cfab6 {
     border-radius: 20rpx;
     overflow: hidden;
     padding: 20rpx;
     margin: 10rpx;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-.scroll .Book_circle .Book_circle_list.data-v-59cf8b0a:last-child {
+.scroll .Book_circle .Book_circle_list.data-v-594cfab6:last-child {
       border: none;
 }
-.scroll .Book_circle .Book_circle_list.data-v-59cf8b0a {
+.scroll .Book_circle .Book_circle_list.data-v-594cfab6 {
       padding-top: 20rpx;
       border-bottom: 1rpx solid #e6e6e6;
 }
-.scroll .Book_circle .Book_circle_list .user.data-v-59cf8b0a {
+.scroll .Book_circle .Book_circle_list .user.data-v-594cfab6 {
         position: relative;
         padding-bottom: 20rpx;
 }
-.scroll .Book_circle .Book_circle_list .user .user_img.data-v-59cf8b0a {
+.scroll .Book_circle .Book_circle_list .user .user_img.data-v-594cfab6 {
           display: block;
           float: left;
           width: 100rpx;
           height: 100rpx;
           border-radius: 50%;
 }
-.scroll .Book_circle .Book_circle_list .user .user_name.data-v-59cf8b0a {
+.scroll .Book_circle .Book_circle_list .user .user_name.data-v-594cfab6 {
           float: left;
           padding-left: 24rpx;
 }
-.scroll .Book_circle .Book_circle_list .user .user_name .name.data-v-59cf8b0a {
+.scroll .Book_circle .Book_circle_list .user .user_name .name.data-v-594cfab6 {
             font-size: 32rpx;
             color: #333333;
             font-weight: 900;
 }
-.scroll .Book_circle .Book_circle_list .user .user_name .class.data-v-59cf8b0a {
+.scroll .Book_circle .Book_circle_list .user .user_name .class.data-v-594cfab6 {
             display: block;
             font-size: 28rpx;
             color: #999999;
 }
-.scroll .Book_circle .Book_circle_list .user .btn.data-v-59cf8b0a {
+.scroll .Book_circle .Book_circle_list .user .btn.data-v-594cfab6 {
           position: absolute;
           right: 0;
           top: 50%;
@@ -113,22 +113,22 @@
           color: #ffffff;
           background: -webkit-linear-gradient(top, #ffad12, #ef8a15);
 }
-.scroll .Book_circle .Book_circle_list .user_introduce.data-v-59cf8b0a {
+.scroll .Book_circle .Book_circle_list .user_introduce.data-v-594cfab6 {
         display: block;
         font-size: 28rpx;
         line-height: 40rpx;
         color: #999999;
         padding-bottom: 30rpx;
 }
-.scroll .recommend.data-v-59cf8b0a {
+.scroll .recommend.data-v-594cfab6 {
     white-space: nowrap;
     width: auto;
     padding: 0 24rpx;
 }
-.scroll .recommend .recommend-item.data-v-59cf8b0a:first-child {
+.scroll .recommend .recommend-item.data-v-594cfab6:first-child {
       margin-left: 0;
 }
-.scroll .recommend .recommend-item.data-v-59cf8b0a {
+.scroll .recommend .recommend-item.data-v-594cfab6 {
       display: inline-block;
       width: 250rpx;
       border-radius: 20rpx;
@@ -136,14 +136,14 @@
       padding: 30rpx 15px;
       box-shadow: 0 0 10rpx rgba(0, 0, 0, 0.1);
 }
-.scroll .recommend .recommend-item .recommend_user_img.data-v-59cf8b0a {
+.scroll .recommend .recommend-item .recommend_user_img.data-v-594cfab6 {
         display: block;
         width: 100rpx;
         height: 100rpx;
         margin: 0 auto;
         border-radius: 50%;
 }
-.scroll .recommend .recommend-item .recommend_user_name.data-v-59cf8b0a {
+.scroll .recommend .recommend-item .recommend_user_name.data-v-594cfab6 {
         display: block;
         font-size: 24rpx;
         padding: 24rpx;
@@ -151,7 +151,7 @@
         font-weight: 900;
         text-align: center;
 }
-.scroll .recommend .recommend-item .btn.data-v-59cf8b0a {
+.scroll .recommend .recommend-item .btn.data-v-594cfab6 {
         display: block;
         font-size: 24rpx;
         color: #FFFFFF;
