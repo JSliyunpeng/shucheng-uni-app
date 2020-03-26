@@ -135,12 +135,13 @@ export default {
 		}
 	},
 	methods: {
-		// 书本保存到本地
+		// 获取书本详情
 		tobookDetial(bookName){
 			uni.navigateTo({
 			    url: '/pages/bookdetial/index?bookName='+bookName
 			});
 		},
+		// 书本保存到本地
 		saveBookLocal(savedFilePath, bookName) {
 			/* 读取临时文件 */
 			plus.io.resolveLocalFileSystemURL(
