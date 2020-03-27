@@ -1,7 +1,7 @@
 <template>
 	<view class="read">
 		<view class="">qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq</view>
-		<rich-text :nodes="text1"></rich-text>
+		<rich-text :space="nbsp" :nodes="text1"></rich-text>
 	</view>
 </template>
 

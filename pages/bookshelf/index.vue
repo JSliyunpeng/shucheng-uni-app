@@ -23,37 +23,41 @@ export default {
 	},
 	methods: {
 		clickRight() {},
+		/* 获取所有的书籍列表 */
+		getLocalBooks(){
+			/* 获取本地书籍文件夹 */
+			plus.io.requestFileSystem(plus.io.PUBLIC_DOCUMENTS, toFile => {
+				/* 读取存放文件夹所有的文件 */
+				var directoryReader = toFile.root.createReader();
+				directoryReader.readEntries(
+					entries => {
+						/* 判断书本是否存在 */
+						entries.forEach(item => {
+							if (item.name.slice(-4) === '.txt') {
+								this.bookNames.push(item.name);
+							}
+						});
+					},
+					function(e) {
+						console.log('读取存放文件夹失败 ' + e.message);
+					}
+				);
+			});
+		},
+		/* 去读书 */
 		toRead(bookName) {
 			uni.navigateTo({
 				url: '/pages/read/index?bookName=' + bookName,
 				success:function(res){
-					console.log(res);
 				},
 				fail:function(err){
-					console.log(res)
+					console.log('跳转阅读页面失败！请联系管理员！',err.message)
 				}
 			});
 		}
 	},
 	onReady() {
-		/* 获取本地书籍列表对象 */
-		plus.io.requestFileSystem(plus.io.PUBLIC_DOCUMENTS, toFile => {
-			/* 读取存放文件夹所有的文件 */
-			var directoryReader = toFile.root.createReader();
-			directoryReader.readEntries(
-				entries => {
-					/* 判断书本是否存在 */
-					entries.forEach(item => {
-						if (item.name.slice(-4) === '.txt') {
-							this.bookNames.push(item.name);
-						}
-					});
-				},
-				function(e) {
-					console.log('读取存放文件夹失败 ' + e.message);
-				}
-			);
-		});
+		this.getLocalBooks()
 	}
 };
 </script>

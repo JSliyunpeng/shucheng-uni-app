@@ -2595,6 +2595,7 @@ Z([3,'data-v-5cbe235a'])
 Z([3,'qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq'])
 Z(z[1])
 Z([[7],[3,'text1']])
+Z([[7],[3,'nbsp']])
 })(__WXML_GLOBAL__.ops_cached.$gwx_19);return __WXML_GLOBAL__.ops_cached.$gwx_19
 }
 __WXML_GLOBAL__.ops_set.$gwx=z;
@@ -5315,7 +5316,7 @@ _rz(z,cF3,'class',1,e,s,gg)
 var hG3=_oz(z,2,e,s,gg)
 _(cF3,hG3)
 _(fE3,cF3)
-var oH3=_mz(z,'rich-text',['class',3,'nodes',1],[],e,s,gg)
+var oH3=_mz(z,'rich-text',['class',3,'nodes',1,'space',2],[],e,s,gg)
 _(fE3,oH3)
 _(r,fE3)
 return r
